@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(167, 167, 167);
+}
+
+a:visited {
+    color: rgb(130, 130, 130)
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+     margin: 5px;
+     height: 400;
+     
+    
+    float: left;
+
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    float: center;
+    text-align: center;
+}
+
+.social {
+    color: rgb(255, 255, 255);
+    background: #10101088;
+    border-radius: 10px;
+    padding: 5px 0px 20px 0px;
+    margin: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    float: center;
+}
+
+.projeckts {
+    color: rgb(255, 255, 255);
+    background: #1515156b;
+    border-radius: 10px;
+    padding: 5px 0px 20px 0px;
+    margin: 15px;
+    box-sizing: border-box;
+
+}
+
+.projeckts a:hover {
+    background: #3f3f3f;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px 6px;
+    tansition: all 0.3s linear;
+    	-webkit-transition: all 0.3s linear;
+    	-moz-transition: all 0.3s linear; 	
+    	text-transform: uppercase;  
+    
+}
+
+.fin {
+    margin: 400px 0px 50px 0px;
+}
+
+.faq div {
+    text-align: center;
+    padding: 50px 20px 30px 20px;
+    
+    
+
+    float: left;
+    /* border-left: #fff solid;
+    box-sizing: border-box; */
+    height: 90px;
+    width: 25%;
+
+}
+
+.srok {
+    border-left: #fff solid;
+    border-right: #fff solid;
+}
+
+#cena {
+    border: solid 2px;
+    border-radius: 7px;
+    font-size="1px"
+    align: left;
+    margin: 10px;
+    padding: 5px 5px;
+    
+}
+
+
+
+.myknopka {
+    border: solid 2px;
+    border-radius: 7px;
+    padding: 20px 50px;
+    background: #10101088;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    
+    tansition: all 0.3s linear;
+    	-webkit-transition: all 0.3s linear;
+    	-moz-transition: all 0.3s linear; 	
+    	text-transform: uppercase;   
+        
+}
+
+.myknopka:active {
+    background: #ff0c0c88;
+    /* tansition: all 0.01s linear;
+    	-webkit-transition: all 0.01s linear;
+    	-moz-transition: all 0.01s linear;  */
+} 
+
+.myknopka:hover {
+    background:rgb(85, 85, 85);
+    	-webkit-transition: all 0.03s linear;
+    	-moz-transition: all 0.03s linear; 
+} 
+
+/*  novaya knopka */
+.srok {
+    border: solid 2px;
+    border-radius: 7px;
+    padding: 12px 30px;
+    background: #10101088;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    
+    tansition: all 0.3s linear;
+    	-webkit-transition: all 0.3s linear;
+    	-moz-transition: all 0.3s linear; 	
+    	text-transform: uppercase;   
+        
+}
+
+.srok:active {
+    background: #ff0c0c88;
+    
+} 
+
+.srok:hover {
+    background:rgb(85, 85, 85);
+    	-webkit-transition: all 0.03s linear;
+    	-moz-transition: all 0.03s linear; 
+} 
+/*  novaya knopka */
+.work {
+    border: solid 2px;
+    border-radius: 7px;
+    padding: 10px 30px;
+    background: #10101088;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    
+    tansition: all 0.3s linear;
+    	-webkit-transition: all 0.3s linear;
+    	-moz-transition: all 0.3s linear; 	
+    	text-transform: uppercase;   
+        
+}
+
+.work:active {
+    background: #ff0c0c88;
+    
+} 
+
+.work:hover {
+    background:rgb(85, 85, 85);
+    	-webkit-transition: all 0.03s linear;
+    	-moz-transition: all 0.03s linear; 
+} 
