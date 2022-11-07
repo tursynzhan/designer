@@ -2,94 +2,117 @@
 <html>
   <head>
    <meta charset="UTF-8">
-    <title>Дизайн работы</title>
-    <style>
-      body {
-        background: #000 url(fon.gif); /* Фоновый цвет и фоновый рисунок*/
-        color: rgb(239, 211, 241); /*Цвет текста на странице*/
-        background-attachment: fixed; /* Фон страницы фиксируется */
-        background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
-        background-size: 100%
-
-        
-    </style>
-    <style>
-      .leftimg {
-          float:left; /* Выравнивание по левому краю */
-           margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
-          }
-      .rightimg  {
-         float: right; /* Выравнивание по правому краю  */ 
-         margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
-         }
-      .centerimg {
-          float: center; /* выравнивание по центру */
-          margin: 7px 7px 0 7px;
-         }
-    </style>
+    <title>Designer</title>
+    <link href="styles.css" rel="stylesheet"/>
+   
   </head>
-  <body link="FFFFFF" alink="FFFFFF" vlink="FF0000">
-    
-    <h1 align="center" > <font size="6" color="orange" face="Times New Roman">
-      Добро пожаловать в презентацию моих проектов</font></h1>
-    
-    <h2>Немного о себе</h2>
-      <p><img src="Anet.jpg" alt="Tursynzhan Anet" width="30%" class="rightimg">
-        Меня зовут Анет Маратулы. Я графический дизайнер и занимаюсь 3Д визуализацией. Работаю на Blender,
-        PhotoShop, Illusrtator, Vectornator. Также я начинающий WEB разработчик. Данная страница одна из первых
-        моих работ. 
-      </p>
-      <h2 >Как со мной связаться</h2>
-        <ul type="cicle">
-          <li><a href="https://instagram.com/tursynzhan12" target="_blank">Мой instagram</a></li>
-          <li><a href="https://t.me/maratovich12" target="_blank">Напиши мне в телеграмм</a></li>
-      
-          <li><a href="https://wa.me/+77751334041" target="_blank">Напиши мне в Whatsapp</a></li>
-          <li><a href="https://vm.tiktok.com/ZMFkEMyPr/" target="_blank">Небольшое видео создания инфографики</a></li>
-      
-        </ul>
-      
-    <h2>Мои проекты</h2>
-    <table>
-      <tr>
-          <td>
+  <body>
+    <div class="container">
+      <h1 align="center" > <font size="6" color="orange" >
+        Design.Visualization.junior Front Ender </font></h1>
+        <h2>Немного о себе</h2>
+      <div class="info">
+        
+        <div>
+          <img src="Anet.jpg" alt="Tursynzhan Anet"  class="avatar">
+        </div>
+        <div>
+          <p>  
+            Меня зовут Анет Маратулы. Я графический дизайнер и занимаюсь 3Д визуализацией. Работаю на Blender,
+            PhotoShop, Illusrtator, Vectornator. Также я начинающий Front Ender. Данная страница одна из первых
+            моих работ. 
+          </p>  
+        </div>
+        
+      </div>
+      <hr>
+      <div class="social">
+      <h4 >Мои социальные сети</h4>
+        
+          <a href="https://instagram.com/tursynzhan12" target="_blank">Мой instagram</a>
+          |
+          <a href="https://t.me/maratovich12" target="_blank">Напиши мне в телеграмм</a>
+          |
+          <a href="https://wa.me/+77751334041" target="_blank">Напиши мне в Whatsapp</a>
+          |
+          <a href="https://vm.tiktok.com/ZMFkEMyPr/" target="_blank">Tik tok </a>
+          
+      </div>  
+        
+     <div class="projeckts"> 
+     <h2>Мои проекты</h2>
+     
+      <div>
             <a href="shoqan.html">
               Проект обновления интерьера для кафе быстрого питания в городе Семей
             </a>
-          </td>
-      </tr>
-      <tr>
-        <td>
+      </div>
+      <div>
           <a href="iris1.html">
             Проект обновления интерьера для барной части караоке Iris в городе Семей
           </a>
-        </td>
-      </tr>
-      <tr>
-        <td>
+      </div>
+      <div>
           <a href="irisvip.html">
             Проект интерьера для караоке Iris в городе Семей с ВИП помещением
           </a>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <a href="illust.html">
+      </div>
+      <div>
+           <a href="illust.html">
             2Д работы на фотошоп, иллюстратор и векторнаторе
           </a>
-        </td>
-      </tr>
-    </table>
-          
- 
+      </div>
+    </div>  
+    <div>
+      <hr>
+      <h2>FAQ</h2>
+     <div class="faq">
+       <div>
+        
+        <button onclick="functcena ()" class='myknopka'>  Цена </button>
+          <p id="cena">
+            
+            
+              Стандартная цена за квадратный метр:
+              Коммерческое помещение - 3500 тенге 
+              Квартира, дом - 3000 тенге
+              Экстерьер - 3000 тенге
+              Прочие объекты - цена договорная. 
+            
+          </p>
+        
   
+          </script>
+        </div>
+        <div>
+          <button onclick="functcena ()" class='srok'>  Срок изготовления </button>
+          <p id="cena"> В зависимости от сложности работы срок может длится от трех дней до одного месяца. 
+            Изготовление делится на несколько этапов. 
+            
+          </p>
+        </div>
+        <div>
+          <button onclick="functcena ()" class='work'>  Что входит в работу </button>
+          <p id="cena"> Замеры объекта, рендеринг от 3 снимка на участок, альбом. Возможность вносить изменения.  
+            Хороший сервис и приятные впечатления!
+            
+          </p>
+        </div>
+    </div>
+    
+   
+  
+        
+
+       
 
 
 
 
-      <br>  
-      <br>
-      <br>
+    </div>
+    <div class="fin">
       <h5 align="center">Қазақстан, Семей 2022 ж</h5>
+    </div>
+    </div>
   </body>
 </html>
